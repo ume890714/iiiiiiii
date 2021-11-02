@@ -1,0 +1,54 @@
+* {
+    line-height: 28px;
+}
+
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.jumbotron {
+    background-image: url("https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2021/05/21/realtime/12330972.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800&exp=3600&w=800&nt=1");
+    color: #fff;
+    height: 100vh;
+    margin-bottom: 0px;
+    background-size: cover;
+    /* cover可以讓其中一邊等同於容器的寬度 */
+    /* contain讓太大的圖片可以完整呈現在容器中，空白的部分就repeat */
+    background-position: 0% 75%;
+}
+
+.title {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.text {
+    width: 800px;
+
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    margin-bottom: 40px;
+}
+
+.paragraph {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.smaller {
+    font-size: 14px;
+    text-align: center;
+}
+
+.main {
+    text-shadow: black 0px 0px 50px;
+}
